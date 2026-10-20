@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Martín Gómez Pizarro · Economista argentino</title>
+<meta name="description" content="Martín Gómez Pizarro, economista argentino. Analista de inversiones en Córdoba: mercado de capitales, historia económica argentina y matriz productiva.">
+<link rel="canonical" href="https://martingomezpizarro.com.ar/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Martín Gómez Pizarro · Economista argentino">
+<meta property="og:description" content="Mercado de capitales, historia económica argentina y matriz productiva.">
+<meta property="og:url" content="https://martingomezpizarro.com.ar/">
+<meta property="og:image" content="https://martingomezpizarro.com.ar/martin.jpg">
+<meta property="og:locale" content="es_AR">
+<meta name="theme-color" content="#F3F4F7">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F4F7}
+html{scroll-behavior:smooth}
+a{color:#17161F}a:hover{color:#32689A}
+@keyframes mgp-up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes mgp-float{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-10px) rotate(.8deg)}}
+@keyframes mgp-left{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes mgp-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@keyframes mgp-pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.mgp-in{opacity:0;animation:mgp-up .9s cubic-bezier(.2,.7,.2,1) forwards}
+.mgp-d1{animation-delay:.15s}.mgp-d2{animation-delay:.3s}.mgp-d3{animation-delay:.45s}.mgp-d4{animation-delay:.6s}
+.mgp-float{animation:mgp-float 9s ease-in-out infinite}
+.mgp-tape{animation:mgp-right 70s linear infinite}
+.mgp-track{animation:mgp-left 60s linear infinite}
+.mgp-strip:hover .mgp-track,.mgp-strip:focus-within .mgp-track{animation-play-state:paused}
+.mgp-dot{animation:mgp-pulse 2.4s ease-in-out infinite}
+.mgp-tile{transition:background-color .3s ease,color .3s ease}
+.mgp-tile .mgp-num{transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.mgp-tile:hover,.mgp-tile:focus-visible{background-color:#17161F !important;color:#F3F4F7 !important}
+.mgp-tile:hover .mgp-num,.mgp-tile:focus-visible .mgp-num{transform:translateX(10px)}
+.mgp-tile:focus-visible{outline:2px solid #32689A;outline-offset:3px}
+.mgp-row{transition:background-color .35s ease}
+.mgp-row:target{background-color:#F3F4F7}
+.mgp-step{min-height:min(100vh,1000px);box-sizing:border-box;padding:96px 40px;display:flex;align-items:center}
+.mgp-step-l{justify-content:flex-start}
+.mgp-step-r{justify-content:flex-end}
+.mgp-copy{width:min(440px,33vw)}
+.mgp-hero{min-height:min(100vh,1000px);box-sizing:border-box;padding:120px 40px 72px;display:flex;justify-content:space-between;align-items:flex-end;gap:32px}
+.mgp-side{width:calc(50% - min(15vw,215px) - 32px)}
+@supports (animation-timeline: view()){
+.mgp-scroll{animation:mgp-up linear both;animation-timeline:view();animation-range:entry 0% entry 40%}
+}
+@media (max-width: 820px){
+.mgp-step{align-items:flex-end;padding:72px 20px 56px}
+.mgp-step-r{justify-content:flex-start}
+.mgp-copy{width:100%;background:rgba(243,244,247,.94);padding:20px 0 0}
+.mgp-hero{flex-direction:column;justify-content:space-between;align-items:stretch;padding:96px 20px 40px}
+.mgp-side{width:100%}
+.mgp-nav{padding:20px !important}
+.mgp-nav > div{gap:16px !important;font-size:12px !important}
+.mgp-hero{padding-top:128px}
+}
+@media (prefers-reduced-motion: reduce){
+.mgp-in,.mgp-scroll{animation:none;opacity:1}
+.mgp-tape,.mgp-track,.mgp-dot,.mgp-float{animation:none}
+html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<div style="font-family: 'Libre Caslon Text', Georgia, serif; color: #17161F; background: #F3F4F7; width: 100%; position: relative">
+
+<!-- NAV -->
+<nav aria-label="Principal" class="mgp-in mgp-nav" style="position: absolute; top: 0; left: 0; right: 0; z-index: 5; padding: 28px 40px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px">
+<a href="#inicio" style="font-size: 18px; font-weight: 700; letter-spacing: 1px; color: #17161F; text-decoration: none">M·G·P</a>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase">
+<a href="#trayectoria" style="color: #17161F; text-decoration: none">Trayectoria</a>
+<a href="#proyectos" style="color: #17161F; text-decoration: none">Proyectos</a>
+<a href="#contacto" style="color: #32689A; text-decoration: underline; text-underline-offset: 5px">Contacto</a>
+</div>
+</nav>
+
+<!-- ═══ RECORRIDO: foto fija que se mueve de lado a lado ═══ -->
+<section id="inicio" style="position: relative">
+
+<div aria-hidden="true" style="position: sticky; top: 0; height: min(100vh, 1000px); overflow: hidden; pointer-events: none; z-index: 1">
+<div style="position: absolute; top: 0; left: 0; height: 2px; background: #32689A; width: 0%" id="mgp-progress"></div>
+<div id="mgp-ticks"></div>
+<div id="mgp-photo" style="position: absolute; left: 50%; top: 50%; width: clamp(220px, 28vw, 400px); aspect-ratio: 1 / 1; transform: translate(-50%, -50%); transition: transform .12s linear; will-change: transform">
+<div class="mgp-float" style="position: relative; width: 100%; height: 100%">
+<div style="position: absolute; inset: -14px; border: 1px solid #32689A; border-radius: 50%" id="mgp-frame"></div>
+<div style="position: absolute; inset: 0; background: #E1E2E3; border-radius: 50%; overflow: hidden">
+<img src="martin.jpg" alt="" width="900" height="900" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; display: block; filter: grayscale(0.12) contrast(1.03)">
+</div>
+<div style="position: absolute; left: 0; right: 0; bottom: -46px; display: flex; justify-content: center; gap: 18px; font-size: 12px; letter-spacing: 1.3px; text-transform: uppercase; color: #17161F"><span id="mgp-num">N° 01</span><span id="mgp-label" style="color: #32689A">Retrato</span></div>
+</div>
+</div>
+</div>
+
+<div style="position: relative; z-index: 2; margin-top: calc(-1 * min(100vh, 1000px))">
+
+<!-- 0 · Portada -->
+<div class="mgp-hero">
+<div class="mgp-side" style="display: flex; flex-direction: column; gap: 22px">
+<p class="mgp-in mgp-d1" style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">Economista argentino</p>
+<h1 class="mgp-in mgp-d2" style="margin: 0; font-weight: 400; font-size: clamp(44px, 4.6vw, 76px); line-height: 0.96; letter-spacing: -2px">Martín<br><span style="white-space: nowrap">Gómez <em style="font-style: italic; color: #32689A">Pizarro</em></span></h1>
+</div>
+<div class="mgp-side" style="display: flex; flex-direction: column; gap: 20px; align-items: flex-end; text-align: right">
+<p class="mgp-in mgp-d3" style="margin: 0; font-size: 18px; line-height: 1.6; max-width: 360px">Me interesa entender la Argentina: su historia económica y su matriz productiva —agro, energía, minería— y acercarle el financiamiento del mercado de capitales.</p>
+<p class="mgp-in mgp-d4" style="margin: 0; font-size: 13px; letter-spacing: 1.4px; text-transform: uppercase; display: flex; align-items: center; gap: 10px"><span class="mgp-dot" style="width: 8px; height: 8px; border-radius: 50%; background: #2E7D4F; display: inline-block"></span><span style="color: #2E7D4F">Disponible</span> · Córdoba</p>
+</div>
+</div>
+
+<!-- 1 · Intereses (foto a la derecha) -->
+<div class="mgp-step mgp-step-l">
+<div class="mgp-copy" style="display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">01 — Intereses</p>
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(36px, 4.2vw, 60px); line-height: 1.02; letter-spacing: -1.5px">Entender cómo produce la Argentina.</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65">Me apasiona la historia económica argentina y conocer a fondo su matriz productiva: el agro, la energía y la minería. Ahí veo dónde el mercado de capitales puede financiar a la economía real.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; font-style: italic">Busco hacer un aporte sincero y concreto a la Argentina.</p>
+</div>
+</div>
+
+<!-- 2 · Mercado (foto a la izquierda) -->
+<div class="mgp-step mgp-step-r">
+<div class="mgp-copy" style="display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">02 — Mercado de capitales</p>
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(36px, 4.2vw, 60px); line-height: 1.02; letter-spacing: -1.5px">Desde 2024, del back-office a la cartera.</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65">Hoy soy analista de inversiones en el equipo de Gonzalo Gómez Pizarro, agente productor: seguimiento de carteras, propuestas personalizadas e informes de acciones, bonos, CEDEARs y ETFs.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; font-style: italic">Antes, pasante en Argentina Valores S.A., con rotación por back-office, mesa de operaciones, comercial y tesorería. La inteligencia artificial es mi herramienta central de trabajo.</p>
+</div>
+</div>
+
+<!-- 3 · Formación (foto a la derecha) -->
+<div class="mgp-step mgp-step-l">
+<div class="mgp-copy" style="display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">03 — Formación</p>
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(36px, 4.2vw, 60px); line-height: 1.02; letter-spacing: -1.5px">Economía en la UNC, con el trabajo final en curso.</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65">Solo me queda el trabajo final de la Licenciatura en Economía: una investigación sobre el riesgo país argentino. En paralelo curso el Postgrado en Agronegocios de AgroEducación.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; font-style: italic">Portfolio and Risk Management (Universidad de Ginebra), Redes Neuronales en FAMAF y Analista Global de Inversiones.</p>
+</div>
+</div>
+
+<!-- 4 · Liderazgo (foto a la izquierda) -->
+<div class="mgp-step mgp-step-r">
+<div class="mgp-copy" style="display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">04 — Liderazgo</p>
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(36px, 4.2vw, 60px); line-height: 1.02; letter-spacing: -1.5px">Ciento cincuenta jóvenes, un año de campaña.</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.65">Jefe de Rama de la Juventud Masculina de Schoenstatt desde 2025. Organizo las actividades anuales, armo equipos para campamentos, retiros y misiones, y coordino con jefes de otras regiones.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; font-style: italic">Dirigente de grupo desde 2022 y miembro del consejo entre 2022 y 2024.</p>
+</div>
+</div>
+
+<!-- 5 · Proyectos (foto vuelve al centro) -->
+<div class="mgp-step mgp-step-l" style="align-items: flex-end">
+<div style="width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<div style="display: flex; flex-direction: column; gap: 14px; max-width: 380px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">05 — Proyectos</p>
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(36px, 4.2vw, 60px); line-height: 1.02; letter-spacing: -1.5px">Lo que construyo en paralelo.</h2>
+</div>
+<a href="#proyectos" style="font-size: 14px; letter-spacing: 1.4px; text-transform: uppercase; color: #32689A; text-underline-offset: 6px">Ver proyectos ↓</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- cinta tipo pizarra -->
+<div aria-hidden="true" style="background: #17161F; color: #F3F4F7; overflow: hidden; padding: 14px 0; position: relative; z-index: 3">
+<div class="mgp-tape" style="display: flex; gap: 56px; width: max-content; font-size: 14px; letter-spacing: 1.4px; text-transform: uppercase; white-space: nowrap">
+<span>Historia económica argentina</span><span>Agro <span style="color: #2E7D4F">▲</span></span><span>Energía</span><span>Minería</span><span>Mercado de capitales · economía real</span><span>Riesgo país</span><span>Análisis de carteras</span><span>Disponible <span style="color: #2E7D4F">●</span></span>
+<span>Historia económica argentina</span><span>Agro <span style="color: #2E7D4F">▲</span></span><span>Energía</span><span>Minería</span><span>Mercado de capitales · economía real</span><span>Riesgo país</span><span>Análisis de carteras</span><span>Disponible <span style="color: #2E7D4F">●</span></span>
+</div>
+</div>
+
+<!-- tira de proyectos -->
+<div style="padding: 48px 0 96px; display: flex; flex-direction: column; gap: 24px; background: #F3F4F7; position: relative; z-index: 3">
+<div style="padding: 0 40px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px">
+<p style="margin: 0; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase">Proyectos en curso</p>
+<p style="margin: 0; font-size: 15px; font-style: italic; color: #32689A">Tocá uno para ir a su ficha</p>
+</div>
+<div class="mgp-strip" style="overflow: hidden; width: 100%">
+<div class="mgp-track" style="display: flex; gap: 2px; width: max-content">
+<a href="#ficha-01" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 01</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">La Cueva del Economista</span><span style="font-size: 13px; font-style: italic">Historia económica argentina</span></span></a>
+<a href="#ficha-02" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 02</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">GPI PMS</span><span style="font-size: 13px; font-style: italic">Mercado de capitales</span></span></a>
+<a href="#ficha-03" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 03</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Análisis multiagente</span><span style="font-size: 13px; font-style: italic">Inversiones</span></span></a>
+<a href="#ficha-04" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 04</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Screening de acciones</span><span style="font-size: 13px; font-style: italic">Informes por ticker</span></span></a>
+<a href="#ficha-05" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 05</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Economía real</span><span style="font-size: 13px; font-style: italic">Vehículos de inversión</span></span></a>
+<a href="#ficha-06" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 06</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Productores agropecuarios</span><span style="font-size: 13px; font-style: italic">Interfaz gráfica</span></span></a>
+<a href="#ficha-07" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 07</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Examen de idoneidad</span><span style="font-size: 13px; font-style: italic">Formación</span></span></a>
+<a href="#ficha-08" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 08</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Biblioteca JM</span><span style="font-size: 13px; font-style: italic">Comunidad</span></span></a>
+<a href="#ficha-09" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 09</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Jarvis</span><span style="font-size: 13px; font-style: italic">Organización personal</span></span></a>
+<a href="#ficha-01" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 01</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">La Cueva del Economista</span><span style="font-size: 13px; font-style: italic">Historia económica argentina</span></span></a>
+<a href="#ficha-02" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 02</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">GPI PMS</span><span style="font-size: 13px; font-style: italic">Mercado de capitales</span></span></a>
+<a href="#ficha-03" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 03</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Análisis multiagente</span><span style="font-size: 13px; font-style: italic">Inversiones</span></span></a>
+<a href="#ficha-04" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 04</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Screening de acciones</span><span style="font-size: 13px; font-style: italic">Informes por ticker</span></span></a>
+<a href="#ficha-05" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 05</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Economía real</span><span style="font-size: 13px; font-style: italic">Vehículos de inversión</span></span></a>
+<a href="#ficha-06" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 06</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Productores agropecuarios</span><span style="font-size: 13px; font-style: italic">Interfaz gráfica</span></span></a>
+<a href="#ficha-07" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 07</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Examen de idoneidad</span><span style="font-size: 13px; font-style: italic">Formación</span></span></a>
+<a href="#ficha-08" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 08</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Biblioteca JM</span><span style="font-size: 13px; font-style: italic">Comunidad</span></span></a>
+<a href="#ficha-09" aria-hidden="true" tabindex="-1" class="mgp-tile" style="flex: 0 0 auto; width: 300px; height: 220px; box-sizing: border-box; padding: 24px; background: #E1E2E3; color: #17161F; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between"><span class="mgp-num" style="font-size: 13px; letter-spacing: 1.4px">N° 09</span><span style="display: flex; flex-direction: column; gap: 8px"><span style="font-size: 27px; line-height: 1.08">Jarvis</span><span style="font-size: 13px; font-style: italic">Organización personal</span></span></a>
+</div>
+</div>
+</div>
+
+<!-- ═══ TRAYECTORIA ═══ -->
+<section id="trayectoria" style="border-top: 1px solid #17161F; padding: 112px 40px; position: relative; z-index: 3; background: #F3F4F7">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 56px">
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(40px, 5.4vw, 72px); line-height: 1.02; letter-spacing: -2px">Trayectoria</h2>
+<p style="margin: 0; font-size: 16px; font-style: italic; max-width: 340px; line-height: 1.55">Experiencia, formación y comunidad.</p>
+</div>
+
+<div style="display: flex; flex-direction: column">
+<p class="mgp-scroll" style="margin: 0 0 8px; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">Experiencia</p>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #17161F; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">Nov. 2025 — hoy</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Analista de Inversiones · Equipo de Gonzalo Gómez Pizarro, Agente Productor</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Seguimiento de carteras, propuestas personalizadas, informes por activo y screening, automatización con Python, Excel e IA.</p>
+</div>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #E1E2E3; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">Ago. 2024 — Nov. 2025</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Pasante · Argentina Valores S.A.</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Rotación por back-office, mesa de operaciones, comercial y tesorería; planillas y código Python para agilizar procesos.</p>
+</div>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #E1E2E3; border-bottom: 1px solid #17161F; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">Verano 2023</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Rental – Retail Associate · Vail Resorts, Denver</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Atención al cliente y ventas en inglés.</p>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column">
+<p class="mgp-scroll" style="margin: 0 0 8px; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">Formación</p>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #17161F; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">2021 — hoy</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Licenciatura en Economía · Universidad Nacional de Córdoba</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Trabajo final en curso: riesgo país argentino.</p>
+</div>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #E1E2E3; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">Sept. 2026 — hoy</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Curso de Postgrado en Agronegocios · AgroEducación</p>
+<p style="flex: 1 1 280px; margin: 0"></p>
+</div>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #E1E2E3; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">Oct. 2026</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Portfolio and Risk Management · Coursera – Universidad de Ginebra</p>
+<p style="flex: 1 1 280px; margin: 0"></p>
+</div>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #E1E2E3; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">2023</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Redes Neuronales · FAMAF, UNC</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Alumno vocacional. Nota: 10 (diez).</p>
+</div>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #E1E2E3; border-bottom: 1px solid #17161F; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">2020</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Analista Global de Inversiones · Instituto de Capacitación Bursátil</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Bachiller en Economía y Administración, Instituto María de Nazareth — abanderado provincial.</p>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column">
+<p class="mgp-scroll" style="margin: 0 0 8px; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A">Comunidad</p>
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 8px 48px; padding: 28px 0; border-top: 1px solid #17161F; border-bottom: 1px solid #17161F; align-items: baseline">
+<p style="flex: 0 0 170px; margin: 0; font-size: 14px; letter-spacing: 1.2px; color: #32689A">2022 — hoy</p>
+<p style="flex: 1 1 380px; margin: 0; font-size: 26px; line-height: 1.25">Juventud Masculina de Schoenstatt</p>
+<p style="flex: 1 1 280px; margin: 0; font-size: 16px; line-height: 1.55; font-style: italic">Jefe de Rama (2025 — hoy), miembro del consejo (2022 — 2024) y dirigente de grupo (2022 — hoy).</p>
+</div>
+</div>
+
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; gap: 24px 64px; font-size: 16px; line-height: 1.6">
+<p style="margin: 0; flex: 1 1 260px"><span style="display: block; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A; margin-bottom: 6px">Idiomas</span>Inglés avanzado · First Certificate Exam</p>
+<p style="margin: 0; flex: 1 1 260px"><span style="display: block; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A; margin-bottom: 6px">Herramientas</span>Python (Pandas), R, Excel, Google Sheets · diseño de agentes y flujos con IA generativa</p>
+<p style="margin: 0; flex: 1 1 260px"><span style="display: block; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; color: #32689A; margin-bottom: 6px">Habilidades</span>Análisis de inversiones y carteras · liderazgo de equipos · vínculo con clientes</p>
+</div>
+</div>
+</section>
+
+<!-- ═══ FICHAS ═══ -->
+<section id="proyectos" style="background: #E1E2E3; padding: 112px 40px; position: relative; z-index: 3">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 72px">
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px">
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(40px, 5.4vw, 72px); line-height: 1.02; letter-spacing: -2px; max-width: 760px">Fichas de proyectos</h2>
+<p style="margin: 0; font-size: 16px; line-height: 1.55; font-style: italic; max-width: 340px">Lo que construyo en paralelo al trabajo.</p>
+</div>
+
+<div style="display: flex; flex-direction: column; border-top: 1px solid #17161F">
+
+<article id="ficha-01" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A">01</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Plataforma académica pública</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">La Cueva del Economista</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; max-width: 640px">Plataforma pública que recopila y visualiza la historia económica argentina desde 1880 hasta hoy, con datos actualizados vía APIs y análisis econométrico en el navegador.</p>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-02" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A; text-align: right">02</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Mercado de capitales</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">GPI PMS</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-03" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A">03</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Agentes de IA</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Sistema multiagente de análisis de inversiones</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-04" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A; text-align: right">04</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Mercados</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Informes por ticker y screening</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-05" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A">05</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Economía real</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Vehículos de inversión en economía real</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-06" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A; text-align: right">06</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Agro</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Interfaz gráfica para productores agropecuarios</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-07" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A">07</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Formación</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Examen de idoneidad</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-08" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 24px 56px; padding: 48px 16px; border-bottom: 1px solid #F3F4F7">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A; text-align: right">08</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Comunidad</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Biblioteca JM</h3>
+<p style="margin: 0; font-size: 17px; line-height: 1.65; max-width: 640px">Organización del material de formación de la Juventud Masculina de Schoenstatt de Argentina.</p>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+<article id="ficha-09" class="mgp-row mgp-scroll" style="scroll-margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px 56px; padding: 48px 16px">
+<p style="flex: 0 0 140px; margin: 0; font-size: 72px; line-height: 0.9; letter-spacing: -2px; color: #32689A">09</p>
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase">Organización personal</p>
+<h3 style="margin: 0; font-weight: 400; font-size: 40px; line-height: 1.05; letter-spacing: -1px">Jarvis</h3>
+<p style="margin: 6px 0 0; font-size: 14px; letter-spacing: 1px; text-transform: uppercase"><a href="#inicio" style="color: #17161F; text-underline-offset: 5px">Volver arriba</a></p>
+</div>
+</article>
+
+</div>
+</div>
+</section>
+
+<!-- ═══ CONTACTO ═══ -->
+<footer id="contacto" style="background: #17161F; color: #F3F4F7; padding: 112px 40px 40px; position: relative; z-index: 3">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 88px">
+<div class="mgp-scroll" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 40px">
+<h2 style="margin: 0; font-weight: 400; font-size: clamp(44px, 6vw, 88px); line-height: 0.98; letter-spacing: -2.5px; color: #F3F4F7; max-width: 820px">Conversemos.</h2>
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 380px">
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #F3F4F7">Una propuesta de inversión, un proyecto en común o una charla sobre la economía argentina.</p>
+<a href="mailto:gomezpizarromartin@gmail.com" style="font-size: 20px; color: #F3F4F7; text-decoration: underline; text-underline-offset: 6px">gomezpizarromartin@gmail.com</a>
+<div style="display: flex; flex-direction: column; gap: 10px; padding-top: 8px">
+<p style="margin: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase; color: #C4C5CB">Profesional</span><a href="tel:+5493517862123" style="font-size: 18px; color: #F3F4F7; text-underline-offset: 5px">+54 9 351 786-2123</a></p>
+<p style="margin: 0; display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase; color: #C4C5CB">Personal</span><a href="tel:+5493512002922" style="font-size: 18px; color: #F3F4F7; text-underline-offset: 5px">+54 9 351 200-2922</a></p>
+</div>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 20px; padding-top: 24px; border-top: 1px solid #3a3944">
+<p style="margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 1px">M·G·P</p>
+<div style="display: flex; flex-wrap: wrap; gap: 28px; font-size: 13px; letter-spacing: 1.4px; text-transform: uppercase">
+<a href="https://www.linkedin.com/in/martin-gomez-pizarro-1936692b9/" style="color: #F3F4F7; text-underline-offset: 5px">LinkedIn</a>
+<a href="mailto:gomezpizarromartin@gmail.com" style="color: #F3F4F7; text-underline-offset: 5px">Email</a>
+</div>
+<p style="margin: 0; font-size: 13px; font-style: italic; color: #C4C5CB">martingomezpizarro.com.ar · Córdoba, Argentina</p>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+(function () {
+  var story = document.getElementById('inicio');
+  var photo = document.getElementById('mgp-photo');
+  var frame = document.getElementById('mgp-frame');
+  var bar = document.getElementById('mgp-progress');
+  var numEl = document.getElementById('mgp-num');
+  var labEl = document.getElementById('mgp-label');
+  var tickBox = document.getElementById('mgp-ticks');
+  var desk = [
+    { x: 0, y: 0, s: 1, r: 0 }, { x: 26, y: 0, s: 0.86, r: 3 }, { x: -26, y: 0, s: 0.86, r: -3 },
+    { x: 26, y: 0, s: 0.86, r: 2 }, { x: -26, y: 0, s: 0.86, r: -2 }, { x: 0, y: -10, s: 0.6, r: 0 }
+  ];
+  var mob = [
+    { x: 0, y: -4, s: 0.95, r: 0 }, { x: 14, y: -24, s: 0.55, r: 3 }, { x: -14, y: -24, s: 0.55, r: -3 },
+    { x: 14, y: -24, s: 0.55, r: 2 }, { x: -14, y: -24, s: 0.55, r: -2 }, { x: 0, y: -24, s: 0.5, r: 0 }
+  ];
+  var labels = ['Retrato', 'Intereses', 'Mercado', 'Formación', 'Liderazgo', 'Proyectos'];
+  var seeds = [
+    [6, 18, '▲', '#2E7D4F', 1.2], [14, 72, '+', '#32689A', 0.6], [22, 34, '▼', '#B23A30', 0.9],
+    [31, 86, '▲', '#2E7D4F', 0.5], [38, 12, '+', '#17161F', 1.4], [44, 64, '·', '#32689A', 0.8],
+    [56, 22, '▲', '#2E7D4F', 1.1], [61, 82, '▼', '#B23A30', 0.7], [68, 44, '+', '#32689A', 1.3],
+    [74, 10, '▼', '#B23A30', 0.6], [81, 58, '▲', '#2E7D4F', 1.0], [88, 30, '+', '#17161F', 0.9],
+    [93, 76, '▲', '#2E7D4F', 1.2], [4, 48, '+', '#32689A', 0.7], [49, 92, '▲', '#2E7D4F', 1.0],
+    [18, 6, '·', '#17161F', 1.5], [84, 92, '▼', '#B23A30', 0.8], [64, 4, '+', '#32689A', 1.1],
+    [28, 56, '·', '#32689A', 0.6], [96, 48, '+', '#17161F', 1.3]
+  ];
+  var ticks = seeds.map(function (s) {
+    var el = document.createElement('span');
+    el.textContent = s[2];
+    el.style.cssText = 'position:absolute;left:' + s[0] + '%;top:' + s[1] + '%;font-size:' + (s[2] === '+' ? 22 : 13) +
+      'px;color:' + s[3] + ';opacity:' + (0.28 + 0.25 * s[4] / 1.5).toFixed(2) + ';font-family:Georgia,serif;line-height:1';
+    tickBox.appendChild(el);
+    return el;
+  });
+  var raf = 0, lastP = -1, lastW = -1;
+  function measure() {
+    raf = 0;
+    var r = story.getBoundingClientRect();
+    var h = Math.min(window.innerHeight || 900, 1000);
+    var p = Math.max(0, Math.min(5, -r.top / h));
+    var w = window.innerWidth || 1280;
+    if (Math.abs(p - lastP) < 0.002 && w === lastW) return;
+    lastP = p; lastW = w;
+    var pos = w < 820 ? mob : desk;
+    var last = pos.length - 1;
+    var i = Math.min(last - 1, Math.floor(p));
+    var t = p - i;
+    var u = Math.max(0, Math.min(1, (t - 0.2) / 0.6));
+    var e = u * u * (3 - 2 * u);
+    var a = pos[i], b = pos[Math.min(last, i + 1)];
+    function L(k) { return a[k] + (b[k] - a[k]) * e; }
+    photo.style.transform = 'translate(calc(-50% + ' + L('x').toFixed(2) + 'vw), calc(-50% + ' + L('y').toFixed(2) +
+      'vh)) scale(' + L('s').toFixed(3) + ') rotate(' + L('r').toFixed(2) + 'deg)';
+    frame.style.transform = 'translate(' + (Math.sin(p * 1.6) * 10).toFixed(1) + 'px, ' + (Math.cos(p * 1.6) * 10).toFixed(1) + 'px)';
+    var k = Math.min(last, Math.round(p));
+    numEl.textContent = 'N° 0' + (k + 1);
+    labEl.textContent = labels[k];
+    bar.style.width = (p / last * 100).toFixed(1) + '%';
+    ticks.forEach(function (el, n) {
+      var s = seeds[n][4];
+      el.style.transform = 'translate(' + (Math.sin(p * 1.3 + n) * 30 * s).toFixed(1) + 'px, ' + (-p * 60 * s).toFixed(1) + 'px)';
+    });
+  }
+  function onScroll() { if (!raf) raf = requestAnimationFrame(measure); }
+  document.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  measure();
+})();
+
+</script>
+</body>
+</html>
